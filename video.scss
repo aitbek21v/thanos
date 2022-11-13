@@ -1,0 +1,44 @@
+#video{
+  padding-top: 50px;
+  .video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &--block{
+      position: relative;
+      video{
+        border-radius: 3%;
+      }
+      &__title{
+        position: absolute;
+        top: 160px;
+        left: 100px;
+        h1{
+          font-weight: 800;
+          font-size: 42px;
+          line-height: 60px;
+          letter-spacing: -0.03em;
+          color: #FFFFFF;
+          padding-bottom: 20px;
+        }
+        p{
+          font-size: 20px;
+          line-height: 30px;
+          text-align: center;
+          letter-spacing: -0.02em;
+          color: #FFFFFF;
+          padding-bottom: 20px;
+        }
+        button{
+          background: #FF7F5C;
+          border-radius: 47px;
+          padding: 10px 25px;
+          color: white;
+          border: none;
+           position: absolute;
+          left: 250px;
+        }
+      }
+    }
+  }
+}

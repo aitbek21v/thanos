@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+body{
+  font-family: sans-serif;
+  border: none;
+}
+
+@import "header";
+@import "hero";
+@import "logos";
+@import "vector";
+@import "video";
+@import "title";
+@import "block";
+@import "slider";
+@import "play";
+@import "images";
+@import "green";
+@import "footer";
+@import "media";

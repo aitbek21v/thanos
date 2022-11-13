@@ -1,0 +1,45 @@
+#header{
+  background: #FFEBCD;
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &--nav {
+      a {
+        padding: 0 20px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        color: #000000;
+
+        select {
+          border: none;
+          background: transparent;
+        }
+      }
+    }
+    div{
+      display: flex;
+      align-items: center;
+      h3 {
+        padding: 0 20px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        color: #000000;
+      }
+      button{
+        padding: 10px 25px;
+        color: white;
+        background: red;
+        border: none;
+        transition: .4s;
+        &:hover{
+          background: white;
+          color: red;
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+}

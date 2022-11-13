@@ -1,0 +1,98 @@
+#images{
+  padding-top: 150px;
+  .headerrr{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h1 {
+      font-weight: 800;
+      font-size: 42px;
+      line-height: 50px;
+      letter-spacing: -0.03em;
+      color: #000000;
+    }
+    button {
+      background: #F57059;
+      border-radius: 10px;
+      padding: 10px 25px;
+      color: white;
+      border: none;
+    }
+  }
+  .images{
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &--img{
+      display: flex;
+      align-items: center;
+
+      &__block{
+        padding: 0 20px;
+        img {
+          padding-bottom: 20px;
+        }
+        &--title{
+          display: flex;
+          align-items: center;
+          padding-bottom: 30px;
+          h6 {
+            font-size: 16px;
+            line-height: 30px;
+            letter-spacing: -0.02em;
+            color: #64607D;
+          }
+          h5 {
+            font-size: 16px;
+            line-height: 30px;
+            letter-spacing: -0.02em;
+            color: #64607D;
+
+          }
+        }
+        h1 {
+          font-weight: 800;
+          font-size: 20px;
+          line-height: 36px;
+          letter-spacing: -0.03em;
+          color: #000000;
+          padding-bottom: 20px;
+        }
+        p {
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 30px;
+          letter-spacing: -0.02em;
+          color: #64607D;
+        }
+      }
+    }
+    &--block{
+      padding: 20px 0;
+      &__img{
+        display: flex;
+        align-items: center;
+        &--title {
+          margin-left: 20px;
+          a {
+            font-size: 16px;
+            line-height: 30px;
+            letter-spacing: -0.02em;
+            color: #64607D;
+            padding-bottom: 10px;
+          }
+          p {
+            font-weight: 800;
+            font-size: 18px;
+            line-height: 30px;
+            letter-spacing: -0.03em;
+            color: #000000;
+
+          }
+        }
+      }
+    }
+  }
+
+}

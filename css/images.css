@@ -1,0 +1,20 @@
+#images .headerrr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#images .headerrr h1 {
+  font-weight: 800;
+  font-size: 42px;
+  line-height: 50px;
+  letter-spacing: -0.03em;
+  color: #000000;
+}
+#images .headerrr button {
+  background: #F57059;
+  border-radius: 10px;
+  padding: 10px 25px;
+  color: white;
+}
+
+/*# sourceMappingURL=images.css.map */

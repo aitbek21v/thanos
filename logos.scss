@@ -1,0 +1,21 @@
+#logos{
+  padding-top: 70px;
+  h1 {
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 30px;
+
+  }
+  .logos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    &--img{
+      img{
+        padding: 0 20px;
+      }
+    }
+  }
+}
