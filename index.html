@@ -9,10 +9,48 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="media.scss">
+    <link rel="stylesheet" href="slider.scss">
 </head>
 <body>
 <header id="header">
     <div class="container">
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox"/>
+            <label class="menu__btn" for="menu__toggle">
+                <span></span>
+            </label>
+
+            <ul class="menu__box">
+                <li><a class="menu__item" href="#"> <select>
+                    <option>
+                        <h2>Product</h2>
+                    </option>
+                    <option>
+                        <h2>Product</h2>
+                    </option>
+                    <option>
+                        <h2>Product</h2>
+                    </option>
+                </select></a></li>
+                <li><a class="menu__item" href="#"> <select>
+                    <option>
+                        <h2>Template</h2>
+                    </option>
+                    <option>
+                        <h2>Template</h2>
+                    </option>
+                    <option>
+                        <h2>Template</h2>
+                    </option>
+
+                </select></a></li>
+                <li><a class="menu__item" href="#">Blog</a></li>
+                <li><a class="menu__item" href="#">Pricing</a></li>
+                <li><a class="menu__item" href="#">Sign In</a></li>
+                <li><a class="menu__item" href="#"> <button>Start Free</button></a></li>
+
+            </ul>
+        </div>
         <div class="header">
             <h1>AR Shakir</h1>
             <nav class="header--nav">
@@ -89,42 +127,7 @@
                 </div>
             </div>
             <div class="hero--image">
-                <div class="hero--image__block">
-                    <div class="hero--image__block--input">
-                        <h5>Followers</h5>
-                        <div class="hero--image__block--input__center">
-                            <h1>9,350</h1>
-                            <p>
-                                <ion-icon name="arrow-up-outline"></ion-icon>
-                                8.46%
-                            </p>
-                        </div>
-                        <input type="range">
-                    </div>
-                    <div class="hero--image__block--input">
-                        <h5>Followers</h5>
-                        <div class="hero--image__block--input__center">
-                            <h1>9,350</h1>
-                            <p>
-                                <ion-icon name="arrow-up-outline"></ion-icon>
-                                8.46%
-                            </p>
-                        </div>
-                        <input type="range">
-                    </div>
-
-                </div>
-                <div class="hero--image__rotate">
-                    <div class="hero--image__rotate--block">
-                        <img src="./img/rotate.svg" alt="">
-                    </div>
-                    <div class="hero--image__rotate--block2">
-                        <img src="./img/rotate2.svg" alt="">
-                    </div>
-                </div>
-                <div class="hero--image__rotate3">
-                    <img src="./img/rotate3.svg" alt="">
-                </div>
+                <img src="./img/ingg.svg" alt="">
             </div>
         </div>
     </div>
@@ -548,6 +551,5 @@
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-
 </body>
 </html>
