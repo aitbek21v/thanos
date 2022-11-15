@@ -16,6 +16,13 @@ body {
   font-family: sans-serif;
   border: none;
 }
+body button {
+  border: none;
+}
+body input {
+  border: none;
+}
+
 #header {
   background: transparent;
   position: fixed;
