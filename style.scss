@@ -13,6 +13,10 @@ a{
 body{
   font-family: sans-serif;
   border: none;
+  button {
+    border:none;
+    }
+  }
 }
 
 @import "header";
